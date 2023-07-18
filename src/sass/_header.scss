@@ -1,0 +1,23 @@
+.search-form {
+  background-image: linear-gradient(to left, #33353a 15%, #000000 65%);
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  box-shadow: 0 8px 8px -5px rgba(0, 0, 0, 0.3);
+  gap: 5px;
+}
+
+.search-input {
+  outline: none;
+  border: 1px;
+  border-radius: 2px;
+  color: #33353a;
+  padding: 3px;
+}
+.search-btn {
+  color: #33353a;
+  border-radius: 2px;
+  border: inherit;
+  padding: 5px;
+  cursor: pointer;
+}
